@@ -18,7 +18,19 @@ h2 {
   font-size: 3.2rem;
   font-weight: 500;
 }
-
+.more-button a {
+  color: #00cdce;
+  font-size: 17px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: 1px solid #000;
+  padding: 7px 18px;
+  background: #000;
+  display: inline-block;
+}
+button:hover {
+  color: white;
+}
 /* header */
 .header__content {
   display: flex;
@@ -162,6 +174,8 @@ nav ul li a:hover {
 }
 .number h2 {
   padding: 50px 0;
+
+  letter-spacing: 1px;
 }
 .number__content {
   display: flex;
@@ -176,4 +190,38 @@ nav ul li a:hover {
 .number__content .number__item {
   font-size: 1.5rem;
   letter-spacing: 4px;
+}
+
+/* Blog */
+.blog {
+  padding: 50px 0;
+}
+.blog h2 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.blog__content {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  padding: 0 60px;
+}
+.blog__content .blog__item {
+  padding: 30px 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.blog__content .blog__item img {
+  width: 100%;
+  border-top: 5px solid #00cdce;
+  background: #efefef;
+}
+.blog__item .blog__background {
+  background-color: #efefef;
+}
+.blog__content .blog__item p,
+.blog__content .more-button {
+  text-align: left;
+  padding: 20px 15px;
 }
