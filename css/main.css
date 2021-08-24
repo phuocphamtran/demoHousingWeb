@@ -68,6 +68,7 @@ nav ul li a {
 nav ul li a:hover {
   border-bottom: 2px solid rgba(12, 11, 11, 0);
   color: #00cdce;
+  text-decoration: none;
 }
 /* carousel */
 .carousel .owl-carousel .owl-dots .owl-dot span {
